@@ -18,3 +18,5 @@ Tjenixen
 - season 1
 - season 2
 - season 3
+
+![Min bild](/images/pizza.jpg)

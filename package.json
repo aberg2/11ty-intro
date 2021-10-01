@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve"
+    "watch:sass": "sass --no-source-map --watch src/scss:dist/css",
+    "watch:eleventy": "eleventy --serve",
+    "start": "npm-run-all --parallel watch:*"
   },
   "keywords": [],
   "author": "",
