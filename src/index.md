@@ -1,9 +1,9 @@
 ---
-
+title: Sammanfattning av det vi gjort
 layout: base.njk
 
 ---
-
+{{ meta.title | safe}}
 
 # Yo
 ## Yo DAB

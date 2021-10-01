@@ -1,18 +1,12 @@
-/* Error: Undefined variable.
- *   ,
- * 7 |     max-width: $breakpoint-lg;
- *   |                ^^^^^^^^^^^^^^
- *   '
- *   src/scss/components/_container.scss 7:16  @import
- *   src/scss/main.scss 7:9                    root stylesheet */
+body {
+  background-color: #af1f1f;
+}
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 7 \2502      max-width: $breakpoint-lg;\d\a   \2502                 ^^^^^^^^^^^^^^\a   \2575 \a   src/scss/components/_container.scss 7:16  @import\a   src/scss/main.scss 7:9                    root stylesheet";
+.container {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48rem;
 }
